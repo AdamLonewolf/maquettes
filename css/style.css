@@ -1,0 +1,205 @@
+
+@font-face {
+  font-family:'Roboto-Regular' ;
+  src: url('../../maquettes/fonts/Roboto-Regular.ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family:'Roboto-Light' ;
+  src: url('../../maquettes/fonts/Roboto-Light.ttf');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family:'Roboto-Bold' ;
+  src: url('../../maquettes/fonts/Roboto-Bold.ttf');
+  font-weight: 600;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F1F1F1;
+    
+  }
+  button, input, input:focus, input:focus-within {
+    outline: none;
+    border: none;
+    height: 40px;
+  }
+  header.header {
+    padding: 20px 0 50px 0;
+    position: relative;
+
+  }
+  .container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+ 
+  
+  /* NAVBAR */
+  .navbar {
+    display: grid;
+    grid-template-columns: 100px auto 30px;
+  }
+
+  .logoicon
+  {
+    height: 50px;
+    cursor: pointer;
+    position: relative;
+    right: 7px;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 80px;
+  }
+  .menu li {
+    list-style: none;
+    display: inline-block;
+    font-family: 'Roboto-Regular';
+    font-weight: 600;
+  }
+  .menu li a{
+    text-decoration: none;
+    color: #000;
+    padding: 5px 15px;
+  }
+  /* NAVBAR */
+  
+  .toggle-menu {
+    width: 30px;
+    height: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 5px;
+  }
+  .toggle-menu > div {
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+    margin-left: auto;
+    position: relative;
+    right: 40px;
+    top: 13px;
+    
+  }
+  
+  .toggle-menu > div:nth-child(1) {
+    width: 70%;
+  }
+  .toggle-menu > div:nth-child(3) {
+    width: 50%;
+  }
+  
+  .home-banner {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 70px;
+  }
+  .home-banner  h1{
+    font-size: 3.2rem;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto-Bold';
+  }
+
+  .home-banner p{
+    font-family: 'Roboto-Light';
+    font-size: 1.5rem;
+    font-weight: 500;
+    position: relative;
+    bottom: 0px;
+  }
+
+  .banner-right {
+    text-align: center;
+    
+
+  }
+  .banner-right  img {
+    overflow: hidden;
+  }
+  .banner-left {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+  }
+  
+  .banner-left  form .form-group{
+    background-color: #fff;
+    width: auto;
+    display: inline-block;
+    padding: 10px;
+
+  }
+
+
+  .button {
+    padding: 5px 10px;
+    text-align: center;
+    min-width: 100px;
+  }
+  .button-primary {
+    background-color: #00A96C;
+    color: white;
+    font-family: 'Roboto-Bold';
+
+  }
+  
+  .form-item {
+    line-height: 40px;
+    width: 200px;
+    height:auto;
+  }
+
+  ::placeholder /*effectuer des modif sur le placeholder*/
+  {
+    font-family: 'Roboto-Light';
+    font-weight: 100;
+  }
+
+  .book
+  {
+    width: 400px;
+    height: auto;
+  }
+
+  .banner-right h3
+  {
+    font-family: 'Roboto-Regular';
+    font-size: 30px;
+  }
+  .banner-right h4
+  {
+    font-family: 'Roboto-regular';
+    font-size: 20px;
+    opacity: 0.4;
+  }
+
+  
+  .main{
+    height:300px;
+    background-color: white;
+    justify-content: center ;
+    align-items: center;
+    width: 500px;
+  }
+
+  .title-main
+  {
+    font-family: 'Roboto-Regular';
+    font-size: 25px;
+    position: relative;
+    top: 20px;
+    text-align: center;
+  }
